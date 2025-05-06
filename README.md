@@ -1,5 +1,6 @@
 # Java-Project-Convenience Store
 자바 - 편의점 재고 관리 프로그램
+동영상 링크 - https://youtu.be/y22v0sRGtd0
 
 ## 🖥️ 프로젝트 소개
 편의점의 재고와 매출을 효율적으로 관리하고 관리자와 손님 각각의 역할에 맞는 기능을 제공하며,
