@@ -197,7 +197,17 @@ public class StokoMain {
 						break;
 					}
 					case 3:
-						System.out.println(items.toString());
+						System.out.printf("%-8s\t%-9s\t%-5s\t%s\n", "상품명", "가격", "수량", "입고일자");
+						System.out.println("─────────────────────────────────────────────────────");
+
+						for (itemData item : items) {
+						    String name = item.getName();
+						    String price = String.format("%,d원", item.getPrice());
+						    String qty = item.getQty() + "개";
+						    String date = item.getInDate();
+
+						    System.out.printf("%-8s\t%-9s\t%-5s\t%s\n", name, price, qty, date);
+						}
 						break;
 					case 4:
 						System.out.println("검색할 상품명 : ");
